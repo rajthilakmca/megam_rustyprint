@@ -110,7 +110,7 @@ impl fmt::Debug for Printer {
 								if q == 0 {
 									try!(write!(fmt, "{}", Blue.paint(" | ")));	
 							  }
-								try!(write!(fmt, "{}", Plain.fg(White).paint(b)));
+								try!(write!(fmt, "{}", Plain.fg(Cyan).paint(b)));
 								for s in 0..self.get_size(q) - b.len() {
   								try!(write!(fmt, "{}", " "));								
 							   }	 

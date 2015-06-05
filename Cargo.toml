@@ -1,6 +1,6 @@
 [package]
 name = "megam_rustyprint"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Raj thilak <rajthilak@megam.io>"]
 description = """
 A pretty printer table make for cli. Takes a matrix of [x,y] rows with a header [x] cols and prints it in a neat way.
